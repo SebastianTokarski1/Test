@@ -1,0 +1,78 @@
+.mainPage{
+  background-color: antiquewhite;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+
+}
+
+.mainPage-txt{
+  font-weight: 400;
+  font-size: 300%;
+}
+
+.mat-divider{
+  margin: 5px;
+}
+
+
+.column1menu{
+  flex:auto;
+  padding: 20px;
+  margin-top: 20px;
+  border-style:ridge;
+  border-color: blanchedalmond;
+  text-align: right;
+  /* background-color: blue; */
+}
+
+.example-spacer{
+  flex: 1 1 auto;
+}
+.menu-btn{
+
+  margin-bottom: 5px;
+}
+
+
+.menu-btn:hover{
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 4px;
+  transition: 300ms;
+  border-style:outset;
+  border-color: blanchedalmond;
+}
+
+.Menu-txt{
+  /* background-color: yellow; */
+  font-weight: 500;
+  font-size: 300%;
+  text-align: center;
+  text-shadow: 2px 2px 4px;
+}
+
+.matgridlist{
+  border: solid black 2px;
+  background-color: rgb(227, 209, 182);
+  margin: 40px;
+  padding: 8px;
+
+}
+
+.matgridtile{
+  border: solid black 2px;
+  background-color: rgb(210, 151, 62);
+  position: row;
+}
+.discription{
+  text-align: left;
+}
+
+.button-main{
+  margin-left: 8px;
+  margin-right: 8px;
+
+}
+
+
