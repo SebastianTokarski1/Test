@@ -1,19 +1,26 @@
 .mainPage{
-  background-color: antiquewhita;
+  background: radial-gradient(ellipse at bottom, #7eb0ff 0%, #030617 100%);
   text-align: center;
   margin: 20px;
   padding: 20px;
   border: 1px solid black;
-
 }
 
-.mainPage-txt{
-  font-weight: 400;
-  font-size: 300%;
+.remonstrant-txt{
+  width: 50%;
+  margin: auto;
+  /*background: radial-gradient(ellipse at bottom, #7eb0ff 0%, #030617 100%);*/
+  background: rgba(0, 0, 0, 0.74);
+  filter: blur(1px) drop-shadow(10px 10px 2px);
+
 }
 
 .mat-divider{
-  margin: 5px;
+  margin: 10px;
+}
+
+.example-spacer{
+  width: 100%;
 }
 
 
@@ -22,19 +29,20 @@
   padding: 20px;
   margin-top: 20px;
   border-style:ridge;
-  border-color: blanchedalmond;
-  text-align: right;
-  /* background-color: blue; */
 }
 
-.example-spacer{
-  flex: 1 1 auto;
-}
 .menu-btn{
-
-  margin-bottom: 5px;
+  /*margin-bottom: 5px;*/
+  margin: auto;
+  background-color: rgba(142, 179, 231, 0.59);
+  border: solid black;
+  width: 80%;
 }
 
+.discription{
+  font-size: x-large;
+  margin: 10px;
+}
 
 .menu-btn:hover{
   margin-bottom: 5px;
@@ -45,34 +53,44 @@
 }
 
 .Menu-txt{
-  /* background-color: yellow; */
   font-weight: 500;
   font-size: 300%;
   text-align: center;
   text-shadow: 2px 2px 4px;
+  color: white;
 }
 
-.matgridlist{
+.mat-grid-list{
   border: solid black 2px;
-  background-color: rgb(227, 209, 182);
+  background-color: rgba(142, 179, 231, 0.59);
   margin: 40px;
   padding: 8px;
 
 }
 
-.matgridtile{
+.mat-grid-tile{
   border: solid black 2px;
-  background-color: rgb(210, 151, 62);
-  position: row;
-}
-.discription{
-  text-align: left;
-}
-
-.button-main{
-  margin-left: 8px;
-  margin-right: 8px;
+  background-color: rgb(177, 194, 217);
 
 }
+
+img {
+  background-size: contain;
+  width: 100%;
+  height: 90%;
+}
+
+.button-main {
+  margin: 8px;
+}
+
+.th-space{
+  width: 80%;
+}
+
+th{
+  width: 50%;
+}
+
 
 

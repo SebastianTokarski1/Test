@@ -8,6 +8,7 @@ import {MatRippleModule} from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { MatSliderModule } from '@angular/material/slider';
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +21,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatRippleModule,
     MatGridListModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
