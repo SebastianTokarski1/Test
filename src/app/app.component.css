@@ -1,56 +1,59 @@
-.mainPage{
+.mainPage {
   background: radial-gradient(ellipse at bottom, #7eb0ff 0%, #030617 100%);
   text-align: center;
   margin: 20px;
   padding: 20px;
-  border: 1px solid black;
+  border: 10px solid black;
 }
 
-.remonstrant-txt{
-  width:70%;
+.remonstrant-txt {
+  width: 70%;
   margin: auto;
   background: rgba(0, 0, 0, 0.74);
-  filter: blur(1px) drop-shadow(10px 10px 2px);
+  filter: blur(1px) drop-shadow(14px 14px 1px);
 }
 
-.mat-divider{
+.mat-divider {
   margin: 10px;
 }
 
-.example-spacer{
+.example-spacer {
   width: 100%;
 }
 
 
-.column1menu{
-  flex:auto;
+.column1menu {
+  flex: auto;
   padding: 20px;
   margin-top: 20px;
-  border-style:ridge;
+  border-style: inset solid double;
+  border-color: black;
+  box-shadow: 10px 10px 6px;
 }
 
-.menu-btn{
+.menu-btn {
   margin: auto;
   background-color: rgba(142, 179, 231, 0.59);
   border: solid black;
-  width: 50%;
+  width: 80%;
   height: 100px;
+  box-shadow: 10px 10px 2px #030617;
 }
 
-.discription{
+.discription {
   font-size: large;
   margin-top: 2%;
 }
 
-.menu-btn:hover{
+.menu-btn:hover {
   margin-bottom: 5px;
   box-shadow: 2px 2px 4px;
   transition: 300ms;
-  border-style:outset;
+  border-style: outset;
   border-color: blanchedalmond;
 }
 
-.Menu-txt{
+.Menu-txt {
   font-weight: 500;
   font-size: 300%;
   text-align: center;
@@ -58,15 +61,16 @@
   color: white;
 }
 
-.mat-grid-list{
-  border: solid black 2px;
+.mat-grid-list {
+  border: solid black 4px;
   background-color: rgba(142, 179, 231, 0.59);
-  margin: 40px;
+  margin: 2%;
   padding: 8px;
+  box-shadow: 10px 10px 4px #030617;
 
 }
 
-.mat-grid-tile{
+.mat-grid-tile {
   border: solid black 2px;
   background-color: rgb(177, 194, 217);
 
@@ -82,8 +86,8 @@ img {
   margin: 8px;
 }
 
-th{
-  width: 10%;
+th {
+  width: 4%;
   height: 100px;
   margin: auto;
   border: solid black;
