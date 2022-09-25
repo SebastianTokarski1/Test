@@ -9,21 +9,23 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
+import {MatMenuModule} from "@angular/material/menu";
 @NgModule({
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
-    MatButtonModule,
-    BrowserAnimationsModule,
-    MatDividerModule,
-    MatRippleModule,
-    MatGridListModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatSliderModule
-  ],
+    imports: [
+        BrowserModule,
+        MatButtonModule,
+        BrowserAnimationsModule,
+        MatDividerModule,
+        MatRippleModule,
+        MatGridListModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatSliderModule,
+        MatMenuModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
