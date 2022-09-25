@@ -7,11 +7,10 @@
 }
 
 .remonstrant-txt{
-  width: 50%;
+  width:70%;
   margin: auto;
   background: rgba(0, 0, 0, 0.74);
   filter: blur(1px) drop-shadow(10px 10px 2px);
-
 }
 
 .mat-divider{
@@ -35,12 +34,12 @@
   background-color: rgba(142, 179, 231, 0.59);
   border: solid black;
   width: 50%;
+  height: 100px;
 }
 
 .discription{
   font-size: large;
-  margin: 8px;
-  text-align: center;
+  margin-top: 2%;
 }
 
 .menu-btn:hover{
@@ -85,6 +84,7 @@ img {
 
 th{
   width: 10%;
+  height: 100px;
   margin: auto;
   border: solid black;
 }
