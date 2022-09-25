@@ -31,16 +31,16 @@
 }
 
 .menu-btn{
-  /*margin-bottom: 5px;*/
   margin: auto;
   background-color: rgba(142, 179, 231, 0.59);
   border: solid black;
-  width: 80%;
+  width: 50%;
 }
 
 .discription{
   font-size: large;
-  margin: 10px;
+  margin: 8px;
+  text-align: center;
 }
 
 .menu-btn:hover{
@@ -83,12 +83,10 @@ img {
   margin: 8px;
 }
 
-.th-space{
-  width: 80%;
-}
-
 th{
-  width: 50%;
+  width: 10%;
+  margin: auto;
+  border: solid black;
 }
 
 
