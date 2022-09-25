@@ -34,15 +34,15 @@
 .menu-btn {
   margin: auto;
   background-color: rgba(142, 179, 231, 0.59);
-  border: solid black;
+  border: solid black 4px;
   width: 80%;
-  height: 100px;
   box-shadow: 10px 10px 2px #030617;
 }
 
 .discription {
-  font-size: large;
-  margin-top: 2%;
+  font-size: x-large;
+  margin: 4%;
+  font-weight: bold;
 }
 
 .menu-btn:hover {
@@ -51,14 +51,17 @@
   transition: 300ms;
   border-style: outset;
   border-color: blanchedalmond;
+  background-color: #98bdf3;
 }
 
-.Menu-txt {
+
+.Zamowienia-txt {
   font-weight: 500;
   font-size: 300%;
   text-align: center;
   text-shadow: 2px 2px 4px;
   color: white;
+  letter-spacing: 2px;
 }
 
 .mat-grid-list {
@@ -87,11 +90,11 @@ img {
 }
 
 th {
-  width: 4%;
+  width: 1%;
   height: 100px;
-  margin: auto;
   border: solid black;
 }
 
-
-
+footer{
+  margin: 5%;
+}
