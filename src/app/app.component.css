@@ -9,7 +9,6 @@
 .remonstrant-txt{
   width: 50%;
   margin: auto;
-  /*background: radial-gradient(ellipse at bottom, #7eb0ff 0%, #030617 100%);*/
   background: rgba(0, 0, 0, 0.74);
   filter: blur(1px) drop-shadow(10px 10px 2px);
 
@@ -40,7 +39,7 @@
 }
 
 .discription{
-  font-size: x-large;
+  font-size: large;
   margin: 10px;
 }
 
